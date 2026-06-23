@@ -20,7 +20,7 @@ let package = Package(
             name: "flutter_appauth",
             dependencies: [
                 .product(name: "AppAuth", package: "AppAuth-iOS"),
-                .package(name: "FlutterFramework", package: "FlutterFramework")
+                .product(name: "FlutterFramework", package: "FlutterFramework")
             ],
             resources: [
                 .process("PrivacyInfo.xcprivacy")
